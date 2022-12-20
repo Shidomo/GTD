@@ -1,6 +1,6 @@
 body {
     font: 400 20px/30px "Graphik LCG", Arial, Helvetica, sans-serif;
-    color: #000;
+    color: #fff
 }
 
 #wrapper {
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 96%;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -18,4 +18,21 @@ img {
     vertical-align: top;
     max-width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    color: #F09D66;
+    font-size: 91px;
+    line-height: 116px;
 }
