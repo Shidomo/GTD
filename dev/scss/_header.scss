@@ -1,21 +1,28 @@
 .header {
-    background: rgba(33, 33, 41, .72);
+    background: rgba(33, 33, 41, .62);
     padding: 5px 0;
     position: absolute;
     width: 100%;
-    font-size: 24px;
+    font-size: 29px;
     z-index: 2;
     border-radius: 0 0 15px 15px;
+    font-weight: 700;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     &__menu {
         display: flex;
         gap: 1.2em;
         padding: 0;
+    }
+
+    &__item {
+        &:hover {
+            color: #FFDFB8;
+        }
     }
     
 }
